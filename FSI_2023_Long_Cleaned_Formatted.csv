@@ -1,0 +1,538 @@
+"Country","Variables","Values"
+"Somalia","C1_Security_Apparatus",9.5
+"Somalia","C2_Factionalized_Elites",10
+"Somalia","C3_Group_Grievance",8.7
+"Yemen","C1_Security_Apparatus",8.6
+"Yemen","C2_Factionalized_Elites",9.9
+"Yemen","C3_Group_Grievance",8.8
+"South Sudan","C1_Security_Apparatus",9.9
+"South Sudan","C2_Factionalized_Elites",9.2
+"South Sudan","C3_Group_Grievance",8.6
+"Congo Democratic Republic","C1_Security_Apparatus",8.8
+"Congo Democratic Republic","C2_Factionalized_Elites",9.6
+"Congo Democratic Republic","C3_Group_Grievance",9.4
+"Syria","C1_Security_Apparatus",9.4
+"Syria","C2_Factionalized_Elites",9.9
+"Syria","C3_Group_Grievance",9.1
+"Afghanistan","C1_Security_Apparatus",9.7
+"Afghanistan","C2_Factionalized_Elites",8.7
+"Afghanistan","C3_Group_Grievance",8.3
+"Sudan","C1_Security_Apparatus",8.3
+"Sudan","C2_Factionalized_Elites",9.6
+"Sudan","C3_Group_Grievance",9.3
+"Central African Republic","C1_Security_Apparatus",8
+"Central African Republic","C2_Factionalized_Elites",9.4
+"Central African Republic","C3_Group_Grievance",8.1
+"Chad","C1_Security_Apparatus",8.7
+"Chad","C2_Factionalized_Elites",9.5
+"Chad","C3_Group_Grievance",8.1
+"Haiti","C1_Security_Apparatus",6.8
+"Haiti","C2_Factionalized_Elites",9.7
+"Haiti","C3_Group_Grievance",5.5
+"Ethiopia","C1_Security_Apparatus",8.6
+"Ethiopia","C2_Factionalized_Elites",9.3
+"Ethiopia","C3_Group_Grievance",8.9
+"Myanmar","C1_Security_Apparatus",9.1
+"Myanmar","C2_Factionalized_Elites",9
+"Myanmar","C3_Group_Grievance",9.7
+"Mali","C1_Security_Apparatus",9.6
+"Mali","C2_Factionalized_Elites",7.2
+"Mali","C3_Group_Grievance",8.5
+"Guinea","C1_Security_Apparatus",8.7
+"Guinea","C2_Factionalized_Elites",10
+"Guinea","C3_Group_Grievance",9.4
+"Nigeria","C1_Security_Apparatus",9
+"Nigeria","C2_Factionalized_Elites",9.6
+"Nigeria","C3_Group_Grievance",8.6
+"Zimbabwe","C1_Security_Apparatus",8.4
+"Zimbabwe","C2_Factionalized_Elites",10
+"Zimbabwe","C3_Group_Grievance",5.9
+"Libya","C1_Security_Apparatus",9.5
+"Libya","C2_Factionalized_Elites",9.3
+"Libya","C3_Group_Grievance",7.3
+"Ukraine","C1_Security_Apparatus",10
+"Ukraine","C2_Factionalized_Elites",8
+"Ukraine","C3_Group_Grievance",6.8
+"Eritrea","C1_Security_Apparatus",6
+"Eritrea","C2_Factionalized_Elites",8.4
+"Eritrea","C3_Group_Grievance",8.7
+"Burundi","C1_Security_Apparatus",7.8
+"Burundi","C2_Factionalized_Elites",8.5
+"Burundi","C3_Group_Grievance",6.7
+"Burkina Faso","C1_Security_Apparatus",9.3
+"Burkina Faso","C2_Factionalized_Elites",8.2
+"Burkina Faso","C3_Group_Grievance",5.8
+"Mozambique","C1_Security_Apparatus",7
+"Mozambique","C2_Factionalized_Elites",6.3
+"Mozambique","C3_Group_Grievance",7.4
+"Cameroon","C1_Security_Apparatus",8.1
+"Cameroon","C2_Factionalized_Elites",9.3
+"Cameroon","C3_Group_Grievance",8.1
+"Niger","C1_Security_Apparatus",8.3
+"Niger","C2_Factionalized_Elites",9.6
+"Niger","C3_Group_Grievance",7.7
+"Lebanon","C1_Security_Apparatus",7.3
+"Lebanon","C2_Factionalized_Elites",9.6
+"Lebanon","C3_Group_Grievance",8.1
+"Uganda","C1_Security_Apparatus",6.3
+"Uganda","C2_Factionalized_Elites",8.9
+"Uganda","C3_Group_Grievance",7.6
+"Iraq","C1_Security_Apparatus",7.5
+"Iraq","C2_Factionalized_Elites",9.6
+"Iraq","C3_Group_Grievance",8
+"Congo Republic","C1_Security_Apparatus",6.4
+"Congo Republic","C2_Factionalized_Elites",6.7
+"Congo Republic","C3_Group_Grievance",8.8
+"Venezuela","C1_Security_Apparatus",6.7
+"Venezuela","C2_Factionalized_Elites",9.4
+"Venezuela","C3_Group_Grievance",6.4
+"Sri Lanka","C1_Security_Apparatus",6.8
+"Sri Lanka","C2_Factionalized_Elites",9.1
+"Sri Lanka","C3_Group_Grievance",8.4
+"Guinea Bissau","C1_Security_Apparatus",7.9
+"Guinea Bissau","C2_Factionalized_Elites",9.9
+"Guinea Bissau","C3_Group_Grievance",3.7
+"Pakistan","C1_Security_Apparatus",7.6
+"Pakistan","C2_Factionalized_Elites",9.3
+"Pakistan","C3_Group_Grievance",9
+"Liberia","C1_Security_Apparatus",6.8
+"Liberia","C2_Factionalized_Elites",8.9
+"Liberia","C3_Group_Grievance",4.6
+"Palestine","C1_Security_Apparatus",7.9
+"Palestine","C2_Factionalized_Elites",8.6
+"Palestine","C3_Group_Grievance",5.8
+"Kenya","C1_Security_Apparatus",6.8
+"Kenya","C2_Factionalized_Elites",8.9
+"Kenya","C3_Group_Grievance",8
+"Cote d'Ivoire","C1_Security_Apparatus",6.6
+"Cote d'Ivoire","C2_Factionalized_Elites",9.9
+"Cote d'Ivoire","C3_Group_Grievance",6.7
+"Mauritania","C1_Security_Apparatus",5.7
+"Mauritania","C2_Factionalized_Elites",8.8
+"Mauritania","C3_Group_Grievance",7.6
+"North Korea","C1_Security_Apparatus",7.4
+"North Korea","C2_Factionalized_Elites",9.2
+"North Korea","C3_Group_Grievance",4.6
+"Angola","C1_Security_Apparatus",6.6
+"Angola","C2_Factionalized_Elites",7.2
+"Angola","C3_Group_Grievance",8.7
+"Iran","C1_Security_Apparatus",7
+"Iran","C2_Factionalized_Elites",9.6
+"Iran","C3_Group_Grievance",9.6
+"Bangladesh","C1_Security_Apparatus",6.8
+"Bangladesh","C2_Factionalized_Elites",9.3
+"Bangladesh","C3_Group_Grievance",8.8
+"Equatorial Guinea","C1_Security_Apparatus",5.9
+"Equatorial Guinea","C2_Factionalized_Elites",8.2
+"Equatorial Guinea","C3_Group_Grievance",7.5
+"Malawi","C1_Security_Apparatus",4.2
+"Malawi","C2_Factionalized_Elites",8.7
+"Malawi","C3_Group_Grievance",4.1
+"Rwanda","C1_Security_Apparatus",5.2
+"Rwanda","C2_Factionalized_Elites",8
+"Rwanda","C3_Group_Grievance",9
+"Comoros","C1_Security_Apparatus",5.6
+"Comoros","C2_Factionalized_Elites",8
+"Comoros","C3_Group_Grievance",4.8
+"Djibouti","C1_Security_Apparatus",5.3
+"Djibouti","C2_Factionalized_Elites",7.3
+"Djibouti","C3_Group_Grievance",5.3
+"Togo","C1_Security_Apparatus",5.8
+"Togo","C2_Factionalized_Elites",7.6
+"Togo","C3_Group_Grievance",6.6
+"Zambia","C1_Security_Apparatus",3.9
+"Zambia","C2_Factionalized_Elites",5.6
+"Zambia","C3_Group_Grievance",5.9
+"Madagascar","C1_Security_Apparatus",5.7
+"Madagascar","C2_Factionalized_Elites",7.8
+"Madagascar","C3_Group_Grievance",3.8
+"Egypt","C1_Security_Apparatus",7
+"Egypt","C2_Factionalized_Elites",9.1
+"Egypt","C3_Group_Grievance",7.7
+"Sierra Leone","C1_Security_Apparatus",3.6
+"Sierra Leone","C2_Factionalized_Elites",7.8
+"Sierra Leone","C3_Group_Grievance",5.4
+"Turkey","C1_Security_Apparatus",6.6
+"Turkey","C2_Factionalized_Elites",8.8
+"Turkey","C3_Group_Grievance",9.5
+"Russia","C1_Security_Apparatus",8.3
+"Russia","C2_Factionalized_Elites",8.4
+"Russia","C3_Group_Grievance",7.8
+"Cambodia","C1_Security_Apparatus",6.4
+"Cambodia","C2_Factionalized_Elites",8.7
+"Cambodia","C3_Group_Grievance",5.5
+"Nepal","C1_Security_Apparatus",5.5
+"Nepal","C2_Factionalized_Elites",8.8
+"Nepal","C3_Group_Grievance",8.8
+"Solomon Islands","C1_Security_Apparatus",5
+"Solomon Islands","C2_Factionalized_Elites",8.7
+"Solomon Islands","C3_Group_Grievance",5.5
+"Honduras","C1_Security_Apparatus",6.8
+"Honduras","C2_Factionalized_Elites",7
+"Honduras","C3_Group_Grievance",4.9
+"Swaziland","C1_Security_Apparatus",4.5
+"Swaziland","C2_Factionalized_Elites",6.8
+"Swaziland","C3_Group_Grievance",2
+"Colombia","C1_Security_Apparatus",6.7
+"Colombia","C2_Factionalized_Elites",7.6
+"Colombia","C3_Group_Grievance",7.3
+"Papua New Guinea","C1_Security_Apparatus",6.5
+"Papua New Guinea","C2_Factionalized_Elites",7.1
+"Papua New Guinea","C3_Group_Grievance",4.5
+"Philippines","C1_Security_Apparatus",9.1
+"Philippines","C2_Factionalized_Elites",8
+"Philippines","C3_Group_Grievance",6.8
+"Nicaragua","C1_Security_Apparatus",5.6
+"Nicaragua","C2_Factionalized_Elites",7.1
+"Nicaragua","C3_Group_Grievance",5.6
+"Timor-Leste","C1_Security_Apparatus",5.6
+"Timor-Leste","C2_Factionalized_Elites",8.3
+"Timor-Leste","C3_Group_Grievance",5
+"Guatemala","C1_Security_Apparatus",6.2
+"Guatemala","C2_Factionalized_Elites",7.1
+"Guatemala","C3_Group_Grievance",9.3
+"Tanzania","C1_Security_Apparatus",4.6
+"Tanzania","C2_Factionalized_Elites",6.5
+"Tanzania","C3_Group_Grievance",5.2
+"Lesotho","C1_Security_Apparatus",5.8
+"Lesotho","C2_Factionalized_Elites",7.3
+"Lesotho","C3_Group_Grievance",3.1
+"Gambia","C1_Security_Apparatus",5.1
+"Gambia","C2_Factionalized_Elites",7.4
+"Gambia","C3_Group_Grievance",2.8
+"Jordan","C1_Security_Apparatus",4.6
+"Jordan","C2_Factionalized_Elites",6.9
+"Jordan","C3_Group_Grievance",8.2
+"Kyrgyz Republic","C1_Security_Apparatus",5.6
+"Kyrgyz Republic","C2_Factionalized_Elites",8.2
+"Kyrgyz Republic","C3_Group_Grievance",7.9
+"Laos","C1_Security_Apparatus",3.9
+"Laos","C2_Factionalized_Elites",8.3
+"Laos","C3_Group_Grievance",7.2
+"Brazil","C1_Security_Apparatus",6.2
+"Brazil","C2_Factionalized_Elites",6.5
+"Brazil","C3_Group_Grievance",7.5
+"Tajikistan","C1_Security_Apparatus",5.5
+"Tajikistan","C2_Factionalized_Elites",8.4
+"Tajikistan","C3_Group_Grievance",6.7
+"India","C1_Security_Apparatus",6
+"India","C2_Factionalized_Elites",7.3
+"India","C3_Group_Grievance",8.1
+"Benin","C1_Security_Apparatus",5.2
+"Benin","C2_Factionalized_Elites",6.7
+"Benin","C3_Group_Grievance",2.6
+"Peru","C1_Security_Apparatus",6
+"Peru","C2_Factionalized_Elites",8.4
+"Peru","C3_Group_Grievance",8
+"Azerbaijan","C1_Security_Apparatus",5.8
+"Azerbaijan","C2_Factionalized_Elites",7.9
+"Azerbaijan","C3_Group_Grievance",5.9
+"Bosnia and Herzegovina","C1_Security_Apparatus",4.4
+"Bosnia and Herzegovina","C2_Factionalized_Elites",8.7
+"Bosnia and Herzegovina","C3_Group_Grievance",6.4
+"South Africa","C1_Security_Apparatus",6.6
+"South Africa","C2_Factionalized_Elites",6.8
+"South Africa","C3_Group_Grievance",6
+"Georgia","C1_Security_Apparatus",5
+"Georgia","C2_Factionalized_Elites",8.8
+"Georgia","C3_Group_Grievance",7.1
+"Senegal","C1_Security_Apparatus",4.5
+"Senegal","C2_Factionalized_Elites",7
+"Senegal","C3_Group_Grievance",5
+"Bolivia","C1_Security_Apparatus",5.3
+"Bolivia","C2_Factionalized_Elites",8.2
+"Bolivia","C3_Group_Grievance",6.4
+"Fiji","C1_Security_Apparatus",6.4
+"Fiji","C2_Factionalized_Elites",8.2
+"Fiji","C3_Group_Grievance",5.4
+"Algeria","C1_Security_Apparatus",5.8
+"Algeria","C2_Factionalized_Elites",6.9
+"Algeria","C3_Group_Grievance",7
+"Belarus","C1_Security_Apparatus",5.4
+"Belarus","C2_Factionalized_Elites",9.6
+"Belarus","C3_Group_Grievance",5.3
+"Mexico","C1_Security_Apparatus",8.3
+"Mexico","C2_Factionalized_Elites",5.9
+"Mexico","C3_Group_Grievance",6.1
+"Sao Tome and Principe","C1_Security_Apparatus",4.1
+"Sao Tome and Principe","C2_Factionalized_Elites",6.3
+"Sao Tome and Principe","C3_Group_Grievance",4.2
+"Ecuador","C1_Security_Apparatus",6
+"Ecuador","C2_Factionalized_Elites",8.2
+"Ecuador","C3_Group_Grievance",5.9
+"Micronesia","C1_Security_Apparatus",3.1
+"Micronesia","C2_Factionalized_Elites",5.6
+"Micronesia","C3_Group_Grievance",3.7
+"El Salvador","C1_Security_Apparatus",6
+"El Salvador","C2_Factionalized_Elites",4.8
+"El Salvador","C3_Group_Grievance",5.3
+"Morocco","C1_Security_Apparatus",4.3
+"Morocco","C2_Factionalized_Elites",6.6
+"Morocco","C3_Group_Grievance",8.3
+"Thailand","C1_Security_Apparatus",8
+"Thailand","C2_Factionalized_Elites",9.7
+"Thailand","C3_Group_Grievance",7.1
+"Serbia","C1_Security_Apparatus",3.9
+"Serbia","C2_Factionalized_Elites",8.6
+"Serbia","C3_Group_Grievance",7.8
+"Armenia","C1_Security_Apparatus",5.7
+"Armenia","C2_Factionalized_Elites",6.4
+"Armenia","C3_Group_Grievance",5.9
+"Moldova","C1_Security_Apparatus",4.5
+"Moldova","C2_Factionalized_Elites",7.8
+"Moldova","C3_Group_Grievance",5.8
+"Uzbekistan","C1_Security_Apparatus",5.6
+"Uzbekistan","C2_Factionalized_Elites",8.8
+"Uzbekistan","C3_Group_Grievance",5.4
+"Bhutan","C1_Security_Apparatus",2.7
+"Bhutan","C2_Factionalized_Elites",7.5
+"Bhutan","C3_Group_Grievance",9.7
+"Tunisia","C1_Security_Apparatus",6.9
+"Tunisia","C2_Factionalized_Elites",7.5
+"Tunisia","C3_Group_Grievance",6.9
+"Indonesia","C1_Security_Apparatus",5.2
+"Indonesia","C2_Factionalized_Elites",7.1
+"Indonesia","C3_Group_Grievance",6.9
+"Gabon","C1_Security_Apparatus",4.2
+"Gabon","C2_Factionalized_Elites",7.7
+"Gabon","C3_Group_Grievance",3.1
+"Saudi Arabia","C1_Security_Apparatus",5.1
+"Saudi Arabia","C2_Factionalized_Elites",8.5
+"Saudi Arabia","C3_Group_Grievance",9.5
+"Samoa","C1_Security_Apparatus",3.6
+"Samoa","C2_Factionalized_Elites",5.1
+"Samoa","C3_Group_Grievance",5.1
+"Bahrain","C1_Security_Apparatus",5.3
+"Bahrain","C2_Factionalized_Elites",7.6
+"Bahrain","C3_Group_Grievance",9.5
+"China","C1_Security_Apparatus",4.9
+"China","C2_Factionalized_Elites",7.2
+"China","C3_Group_Grievance",6.5
+"Turkmenistan","C1_Security_Apparatus",4.5
+"Turkmenistan","C2_Factionalized_Elites",7.8
+"Turkmenistan","C3_Group_Grievance",5.3
+"Paraguay","C1_Security_Apparatus",5.7
+"Paraguay","C2_Factionalized_Elites",7.8
+"Paraguay","C3_Group_Grievance",4.7
+"Maldives","C1_Security_Apparatus",4.9
+"Maldives","C2_Factionalized_Elites",8.1
+"Maldives","C3_Group_Grievance",3.4
+"Ghana","C1_Security_Apparatus",4
+"Ghana","C2_Factionalized_Elites",5.9
+"Ghana","C3_Group_Grievance",3
+"Jamaica","C1_Security_Apparatus",7
+"Jamaica","C2_Factionalized_Elites",3.7
+"Jamaica","C3_Group_Grievance",1.6
+"Guyana","C1_Security_Apparatus",6.5
+"Guyana","C2_Factionalized_Elites",4.8
+"Guyana","C3_Group_Grievance",5.9
+"Dominican Republic","C1_Security_Apparatus",5.5
+"Dominican Republic","C2_Factionalized_Elites",6.2
+"Dominican Republic","C3_Group_Grievance",4.6
+"Kazakhstan","C1_Security_Apparatus",4
+"Kazakhstan","C2_Factionalized_Elites",7.9
+"Kazakhstan","C3_Group_Grievance",7.4
+"Namibia","C1_Security_Apparatus",4.2
+"Namibia","C2_Factionalized_Elites",3.5
+"Namibia","C3_Group_Grievance",4.2
+"Macedonia","C1_Security_Apparatus",4.1
+"Macedonia","C2_Factionalized_Elites",7.3
+"Macedonia","C3_Group_Grievance",5.4
+"Cape Verde","C1_Security_Apparatus",4.2
+"Cape Verde","C2_Factionalized_Elites",5.5
+"Cape Verde","C3_Group_Grievance",2.4
+"Belize","C1_Security_Apparatus",6.8
+"Belize","C2_Factionalized_Elites",4.3
+"Belize","C3_Group_Grievance",4.7
+"Suriname","C1_Security_Apparatus",3.4
+"Suriname","C2_Factionalized_Elites",5.8
+"Suriname","C3_Group_Grievance",7
+"Cuba","C1_Security_Apparatus",3.4
+"Cuba","C2_Factionalized_Elites",7
+"Cuba","C3_Group_Grievance",2.2
+"Vietnam","C1_Security_Apparatus",3.5
+"Vietnam","C2_Factionalized_Elites",6.9
+"Vietnam","C3_Group_Grievance",4.8
+"Montenegro","C1_Security_Apparatus",4
+"Montenegro","C2_Factionalized_Elites",6.5
+"Montenegro","C3_Group_Grievance",9.3
+"Cyprus","C1_Security_Apparatus",2.9
+"Cyprus","C2_Factionalized_Elites",7.9
+"Cyprus","C3_Group_Grievance",4.5
+"Albania","C1_Security_Apparatus",4.8
+"Albania","C2_Factionalized_Elites",6.2
+"Albania","C3_Group_Grievance",3.5
+"Botswana","C1_Security_Apparatus",3.4
+"Botswana","C2_Factionalized_Elites",3.3
+"Botswana","C3_Group_Grievance",3.7
+"Greece","C1_Security_Apparatus",3.3
+"Greece","C2_Factionalized_Elites",4.1
+"Greece","C3_Group_Grievance",4
+"Malaysia","C1_Security_Apparatus",4.8
+"Malaysia","C2_Factionalized_Elites",6.8
+"Malaysia","C3_Group_Grievance",4.8
+"Brunei Darussalam","C1_Security_Apparatus",3.9
+"Brunei Darussalam","C2_Factionalized_Elites",7.4
+"Brunei Darussalam","C3_Group_Grievance",7.1
+"Antigua and Barbuda","C1_Security_Apparatus",4.9
+"Antigua and Barbuda","C2_Factionalized_Elites",3.7
+"Antigua and Barbuda","C3_Group_Grievance",3.6
+"Grenada","C1_Security_Apparatus",4.8
+"Grenada","C2_Factionalized_Elites",5.6
+"Grenada","C3_Group_Grievance",3.6
+"Seychelles","C1_Security_Apparatus",5.2
+"Seychelles","C2_Factionalized_Elites",6
+"Seychelles","C3_Group_Grievance",3.9
+"Romania","C1_Security_Apparatus",1.9
+"Romania","C2_Factionalized_Elites",5.7
+"Romania","C3_Group_Grievance",5.4
+"Trinidad and Tobago","C1_Security_Apparatus",7.3
+"Trinidad and Tobago","C2_Factionalized_Elites",5.6
+"Trinidad and Tobago","C3_Group_Grievance",3.4
+"Bulgaria","C1_Security_Apparatus",4.1
+"Bulgaria","C2_Factionalized_Elites",5.3
+"Bulgaria","C3_Group_Grievance",4
+"Mongolia","C1_Security_Apparatus",2.9
+"Mongolia","C2_Factionalized_Elites",5.5
+"Mongolia","C3_Group_Grievance",2.3
+"Kuwait","C1_Security_Apparatus",2.4
+"Kuwait","C2_Factionalized_Elites",7.5
+"Kuwait","C3_Group_Grievance",4.7
+"Bahamas","C1_Security_Apparatus",4.3
+"Bahamas","C2_Factionalized_Elites",4.5
+"Bahamas","C3_Group_Grievance",2.3
+"Hungary","C1_Security_Apparatus",1.8
+"Hungary","C2_Factionalized_Elites",5.3
+"Hungary","C3_Group_Grievance",3.3
+"Panama","C1_Security_Apparatus",4.6
+"Panama","C2_Factionalized_Elites",2.7
+"Panama","C3_Group_Grievance",6.2
+"Oman","C1_Security_Apparatus",2.4
+"Oman","C2_Factionalized_Elites",6.6
+"Oman","C3_Group_Grievance",2.9
+"Croatia","C1_Security_Apparatus",2
+"Croatia","C2_Factionalized_Elites",4.4
+"Croatia","C3_Group_Grievance",4.3
+"Argentina","C1_Security_Apparatus",4.3
+"Argentina","C2_Factionalized_Elites",2.8
+"Argentina","C3_Group_Grievance",3.2
+"Barbados","C1_Security_Apparatus",4.4
+"Barbados","C2_Factionalized_Elites",4.2
+"Barbados","C3_Group_Grievance",2.3
+"United States","C1_Security_Apparatus",4.7
+"United States","C2_Factionalized_Elites",7.3
+"United States","C3_Group_Grievance",6.5
+"Poland","C1_Security_Apparatus",1.8
+"Poland","C2_Factionalized_Elites",4.2
+"Poland","C3_Group_Grievance",5
+"Israel","C1_Security_Apparatus",2.6
+"Israel","C2_Factionalized_Elites",8.3
+"Israel","C3_Group_Grievance",7.1
+"Spain","C1_Security_Apparatus",2.8
+"Spain","C2_Factionalized_Elites",6.9
+"Spain","C3_Group_Grievance",7.3
+"Latvia","C1_Security_Apparatus",2
+"Latvia","C2_Factionalized_Elites",4.3
+"Latvia","C3_Group_Grievance",7.7
+"Italy","C1_Security_Apparatus",4.5
+"Italy","C2_Factionalized_Elites",4.9
+"Italy","C3_Group_Grievance",3.7
+"Chile","C1_Security_Apparatus",3.6
+"Chile","C2_Factionalized_Elites",2.2
+"Chile","C3_Group_Grievance",3.8
+"United Kingdom","C1_Security_Apparatus",2.9
+"United Kingdom","C2_Factionalized_Elites",5.8
+"United Kingdom","C3_Group_Grievance",6.1
+"Qatar","C1_Security_Apparatus",1
+"Qatar","C2_Factionalized_Elites",5
+"Qatar","C3_Group_Grievance",2.8
+"Costa Rica","C1_Security_Apparatus",2.9
+"Costa Rica","C2_Factionalized_Elites",3.8
+"Costa Rica","C3_Group_Grievance",2.4
+"Czech Republic","C1_Security_Apparatus",2
+"Czech Republic","C2_Factionalized_Elites",5.3
+"Czech Republic","C3_Group_Grievance",4
+"Lithuania","C1_Security_Apparatus",2.2
+"Lithuania","C2_Factionalized_Elites",3
+"Lithuania","C3_Group_Grievance",2.7
+"Estonia","C1_Security_Apparatus",1.7
+"Estonia","C2_Factionalized_Elites",5.8
+"Estonia","C3_Group_Grievance",6.8
+"Mauritius","C1_Security_Apparatus",1
+"Mauritius","C2_Factionalized_Elites",3.1
+"Mauritius","C3_Group_Grievance",5
+"Slovak Republic","C1_Security_Apparatus",1.2
+"Slovak Republic","C2_Factionalized_Elites",4.7
+"Slovak Republic","C3_Group_Grievance",5.5
+"United Arab Emirates","C1_Security_Apparatus",2.3
+"United Arab Emirates","C2_Factionalized_Elites",3.6
+"United Arab Emirates","C3_Group_Grievance",2.2
+"Uruguay","C1_Security_Apparatus",3.6
+"Uruguay","C2_Factionalized_Elites",2.7
+"Uruguay","C3_Group_Grievance",2.3
+"Malta","C1_Security_Apparatus",1.8
+"Malta","C2_Factionalized_Elites",2
+"Malta","C3_Group_Grievance",2.1
+"South Korea","C1_Security_Apparatus",1.5
+"South Korea","C2_Factionalized_Elites",3.9
+"South Korea","C3_Group_Grievance",2.8
+"Belgium","C1_Security_Apparatus",2.4
+"Belgium","C2_Factionalized_Elites",4.4
+"Belgium","C3_Group_Grievance",3.5
+"Japan","C1_Security_Apparatus",1.5
+"Japan","C2_Factionalized_Elites",2.6
+"Japan","C3_Group_Grievance",1.9
+"France","C1_Security_Apparatus",2.9
+"France","C2_Factionalized_Elites",1.9
+"France","C3_Group_Grievance",6.4
+"Slovenia","C1_Security_Apparatus",0.3
+"Slovenia","C2_Factionalized_Elites",2
+"Slovenia","C3_Group_Grievance",3
+"Portugal","C1_Security_Apparatus",0.3
+"Portugal","C2_Factionalized_Elites",2.5
+"Portugal","C3_Group_Grievance",0.7
+"Singapore","C1_Security_Apparatus",0.4
+"Singapore","C2_Factionalized_Elites",4
+"Singapore","C3_Group_Grievance",2.8
+"Germany","C1_Security_Apparatus",2.3
+"Germany","C2_Factionalized_Elites",2.3
+"Germany","C3_Group_Grievance",3.4
+"Austria","C1_Security_Apparatus",1.4
+"Austria","C2_Factionalized_Elites",3.2
+"Austria","C3_Group_Grievance",3.3
+"Australia","C1_Security_Apparatus",2.1
+"Australia","C2_Factionalized_Elites",1.7
+"Australia","C3_Group_Grievance",2.9
+"Netherlands","C1_Security_Apparatus",1.8
+"Netherlands","C2_Factionalized_Elites",3.4
+"Netherlands","C3_Group_Grievance",3
+"Sweden","C1_Security_Apparatus",2.1
+"Sweden","C2_Factionalized_Elites",1.8
+"Sweden","C3_Group_Grievance",2.3
+"Luxembourg","C1_Security_Apparatus",0.4
+"Luxembourg","C2_Factionalized_Elites",3.4
+"Luxembourg","C3_Group_Grievance",1.5
+"Ireland","C1_Security_Apparatus",2.1
+"Ireland","C2_Factionalized_Elites",1.5
+"Ireland","C3_Group_Grievance",0.5
+"Canada","C1_Security_Apparatus",2.2
+"Canada","C2_Factionalized_Elites",2.5
+"Canada","C3_Group_Grievance",2
+"Denmark","C1_Security_Apparatus",1.1
+"Denmark","C2_Factionalized_Elites",1.4
+"Denmark","C3_Group_Grievance",3.1
+"Switzerland","C1_Security_Apparatus",1.4
+"Switzerland","C2_Factionalized_Elites",1
+"Switzerland","C3_Group_Grievance",2.1
+"New Zealand","C1_Security_Apparatus",1.6
+"New Zealand","C2_Factionalized_Elites",1.4
+"New Zealand","C3_Group_Grievance",2
+"Finland","C1_Security_Apparatus",2
+"Finland","C2_Factionalized_Elites",1.4
+"Finland","C3_Group_Grievance",0.3
+"Iceland","C1_Security_Apparatus",0.4
+"Iceland","C2_Factionalized_Elites",1.8
+"Iceland","C3_Group_Grievance",0.5
+"Norway","C1_Security_Apparatus",1.4
+"Norway","C2_Factionalized_Elites",1.1
+"Norway","C3_Group_Grievance",3.1

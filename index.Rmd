@@ -1,0 +1,287 @@
+---
+title: "index"
+output:
+  html_document:
+    df_print: paged
+---
+
+# Importing, Cleaning, and Formatting
+
+## import the data
+
+```{r import, eval=TRUE, echo=TRUE, message=FALSE}
+library(readxl) # use package readxl
+
+fsi_2006 <- read_excel("fsi-2006.xlsx") # read and name file
+View(fsi_2006) # view file
+
+fsi_2007 <- read_excel("fsi-2007.xlsx") # read and name file
+View(fsi_2007) # view file
+
+fsi_2008 <- read_excel("fsi-2008.xlsx") # read and name file
+View(fsi_2008) # view file
+
+fsi_2009 <- read_excel("fsi-2009.xlsx") # read and name file
+View(fsi_2009) # view file
+
+fsi_2010 <- read_excel("fsi-2010.xlsx") # read and name file
+View(fsi_2010) # view file
+
+fsi_2011 <- read_excel("fsi-2011.xlsx") # read and name file
+View(fsi_2011) # view file
+
+fsi_2012 <- read_excel("fsi-2012.xlsx") # read and name file
+View(fsi_2012) # view file
+
+fsi_2013 <- read_excel("fsi-2013.xlsx") # read and name file
+View(fsi_2013) # view file
+
+fsi_2014 <- read_excel("fsi-2014.xlsx") # read and name file
+View(fsi_2014) # view file
+
+fsi_2015 <- read_excel("fsi-2015.xlsx") # read and name file
+View(fsi_2015) # view file
+
+fsi_2016 <- read_excel("fsi-2016.xlsx") # read and name file
+View(fsi_2016) # view file
+
+fsi_2017 <- read_excel("fsi-2017.xlsx") # read and name file
+View(fsi_2017) # view file
+
+fsi_2018 <- read_excel("fsi-2018.xlsx") # read and name file
+View(fsi_2018) # view file
+
+fsi_2019 <- read_excel("fsi-2019.xlsx") # read and name file
+View(fsi_2019) # view file
+
+fsi_2020 <- read_excel("fsi-2020.xlsx") # read and name file
+View(fsi_2020) # view file
+
+fsi_2021 <- read_excel("fsi-2021.xlsx") # read and name file
+View(fsi_2021) # view file
+
+fsi_2022_download <- read_excel("fsi-2022-download.xlsx") # read and name file
+View(fsi_2022_download) # view file
+
+FSI_2023_DOWNLOAD <- read_excel("FSI-2023-DOWNLOAD.xlsx") # read and name file
+View(FSI_2023_DOWNLOAD) # view file
+```
+
+```{r format year, eval=TRUE, echo=TRUE, message=FALSE}
+# Changed the year values before appending because when I did it after, there would be an issue where it showed 1970 for one of the data sets. I excluded two data sets because they were already in the correct format.
+
+fsi_2006$Year=format(fsi_2006$Year,"%Y") # change the format of the year column to year only
+fsi_2006$Year=as.numeric(fsi_2006$Year) # change the data type to numeric
+
+fsi_2007$Year=format(fsi_2007$Year,"%Y") # change the format of the year column to year only
+fsi_2007$Year=as.numeric(fsi_2007$Year) # change the data type to numeric
+
+fsi_2008$Year=format(fsi_2008$Year,"%Y") # change the format of the year column to year only
+fsi_2008$Year=as.numeric(fsi_2008$Year) # change the data type to numeric
+
+fsi_2009$Year=format(fsi_2009$Year,"%Y") # change the format of the year column to year only
+fsi_2009$Year=as.numeric(fsi_2009$Year) # change the data type to numeric
+
+fsi_2010$Year=format(fsi_2010$Year,"%Y") # change the format of the year column to year only
+fsi_2010$Year=as.numeric(fsi_2010$Year) # change the data type to numeric
+
+fsi_2011$Year=format(fsi_2011$Year,"%Y") # change the format of the year column to year only
+fsi_2011$Year=as.numeric(fsi_2011$Year) # change the data type to numeric
+
+fsi_2012$Year=format(fsi_2012$Year,"%Y") # change the format of the year column to year only
+fsi_2012$Year=as.numeric(fsi_2012$Year) # change the data type to numeric
+
+fsi_2013$Year=format(fsi_2013$Year,"%Y") # change the format of the year column to year only
+fsi_2013$Year=as.numeric(fsi_2013$Year) # change the data type to numeric
+
+fsi_2014$Year=format(fsi_2014$Year,"%Y") # change the format of the year column to year only
+fsi_2014$Year=as.numeric(fsi_2014$Year) # change the data type to numeric
+
+fsi_2015$Year=format(fsi_2015$Year,"%Y") # change the format of the year column to year only
+fsi_2015$Year=as.numeric(fsi_2015$Year) # change the data type to numeric
+
+fsi_2016$Year=format(fsi_2016$Year,"%Y") # change the format of the year column to year only
+fsi_2016$Year=as.numeric(fsi_2016$Year) # change the data type to numeric
+
+fsi_2017$Year=format(fsi_2017$Year,"%Y") # change the format of the year column to year only
+fsi_2017$Year=as.numeric(fsi_2017$Year) # change the data type to numeric
+
+fsi_2018$Year=format(fsi_2018$Year,"%Y") # change the format of the year column to year only
+fsi_2018$Year=as.numeric(fsi_2018$Year) # change the data type to numeric
+
+fsi_2019$Year=format(fsi_2019$Year,"%Y") # change the format of the year column to year only
+fsi_2019$Year=as.numeric(fsi_2019$Year) # change the data type to numeric
+
+fsi_2020$Year=format(fsi_2020$Year,"%Y") # change the format of the year column to year only
+fsi_2020$Year=as.numeric(fsi_2020$Year) # change the data type to numeric
+
+fsi_2022_download$Year=format(fsi_2022_download$Year,"%Y") # change the format of the year column to year only
+fsi_2022_download$Year=as.numeric(fsi_2022_download$Year) # change the data type to numeric
+```
+
+## Vertical Concatenating
+
+```{r remove columns, eval=TRUE, echo=TRUE, message=FALSE}
+
+fsi_2019 <- fsi_2019[,-17] # remove 17th column, it was only in two of the data sets
+fsi_2020 <- fsi_2020[,-17] # remove 17th column
+```
+
+```{r append, eval=TRUE, echo=TRUE, message=FALSE}
+
+fsi_combined=rbind(fsi_2006,fsi_2007,fsi_2008,fsi_2009,fsi_2010,fsi_2011,fsi_2012,fsi_2013,fsi_2014,fsi_2015,fsi_2016,fsi_2017,fsi_2018,fsi_2019,fsi_2020,fsi_2021,fsi_2022_download,FSI_2023_DOWNLOAD) # combine all data sets
+fsi_combined
+```
+
+## Check values formats - year = integer, rank = integer
+
+
+```{r str, eval=TRUE, echo=TRUE, message=FALSE}
+
+str(fsi_combined) # check data values
+summary(fsi_combined) # check statistical summary
+```
+
+```{r format rank, eval=TRUE, echo=TRUE, message=FALSE}
+
+fsi_combined$Rank = gsub("st|nd|rd|th","",fsi_combined$Rank) # format rank to remove any non-numeric part
+fsi_combined$Rank = gsub("n/r","NA",fsi_combined$Rank) # change the missing value to NA
+fsi_combined$Rank[fsi_combined$Rank=='NA']="0" # View NA as 0 for numeric purposes
+fsi_combined$Rank == trimws(fsi_combined$Rank,whitespace = "[\\h\\v]") # remove any white space
+fsi_combined$Rank=as.numeric(fsi_combined$Rank) # change the rank column to numeric
+```
+
+```{r str2, eval=TRUE, echo=TRUE, message=FALSE}
+
+str(fsi_combined) # check data types
+summary(fsi_combined) # check statistical summary
+```
+
+```{r column names, eval=TRUE, echo=TRUE, message=FALSE}
+
+names(fsi_combined) # view column names
+names(fsi_combined)[5]=c("C1_Security_Apparatus") # change column name
+names(fsi_combined)[6]=c("C2_Factionalized_Elites") # change column name
+names(fsi_combined)[7]=c("C3_Group_Grievance") # change column name
+names(fsi_combined)[8]=c("E1_Economy") # change column name
+names(fsi_combined)[9]=c("E2_Economic_Inequity") # change column name
+names(fsi_combined)[10]=c("E3_Human_Flight_and_Brain_Drain") # change column name
+names(fsi_combined)[11]=c("P1_State_Legitimacy") # change column name
+names(fsi_combined)[12]=c("P2_Public_Services") # change column name
+names(fsi_combined)[13]=c("P3_Human_Rights") # change column name
+names(fsi_combined)[14]=c("S1_Demographic_Pressures") # change column name
+names(fsi_combined)[15]=c("S2_Refugees_and_IDPs") # change column name
+names(fsi_combined)[16]=c("X1_External_Intervention") # change column name
+```
+
+# Plotting and Features
+
+## Plot total per year using boxplots in ggplot2 with features
+** Come back to this, can't get features for the plot to work
+```{r YT Boxplot, eval=TRUE, echo=TRUE, message=FALSE}
+library(ggplot2)
+base=boxplot(data=fsi_combined,Total~Year)
+
+theTitle='Fragility States Index Over Time'
+theSubtitle='146 Countries, from 2006 to 2023'
+theCaption=paste("Source:Fragile States Index\n")
+```
+
+## Plot variables C1, C2, C3 using histograms
+
+```{r 2013 and 2023 subset, eval=TRUE, echo=TRUE, message=FALSE}
+library(dplyr) # use package dplyr
+fsi_2013_2023 <- subset(fsi_combined, Year==2013|Year==2023)[c(1,2,5,6,7)] #subset data for only the years 2013 and 2023
+```
+
+```{r wide to long, eval=TRUE, echo=TRUE, message=FALSE}
+fsi_2013_long <- tidyr::pivot_longer(data = fsi_2013_2023[1:178,c(1,3,4,5)],
+                                          cols=!Country,
+                                          names_to = "Variables",
+                                          values_to = "Values") # create long data set with only 2013 and the columns needed
+
+fsi_2023_long <- tidyr::pivot_longer(data = fsi_2013_2023[179:357,c(1,3,4,5)],
+                                          cols=!Country,
+                                          names_to = "Variables",
+                                          values_to = "Values") # create long data set with only 2023 and the columns needed
+```
+
+```{r plot histograms, eval=TRUE, echo=TRUE, message=FALSE}
+
+base = ggplot(data=fsi_2013_long) # create the base for a histogram
+base + geom_histogram(aes(x=Values),bins = 10) +
+  facet_wrap(Variables~., scales = "free", ncol = 1) # create a histogram for 2013 using facets
+
+base = ggplot(data=fsi_2023_long) # create the base for a histogram
+base + geom_histogram(aes(x=Values),bins = 10) +
+  facet_wrap(Variables~., scales = "free", ncol = 1) # create a histogram for 2023 using facets
+```
+
+# Save and Export
+
+## Save Appended Data
+
+```{r save combined RDS, eval=TRUE, echo=TRUE, message=FALSE}
+saveRDS(fsi_combined,"FSI_Cleaned_Formatted.RDS") # code is saving the file as an RDS file
+```
+
+```{r read combined RDS, eval=TRUE, echo=TRUE, message=FALSE}
+FSI_Cleaned_FormattedRDS=readRDS("FSI_Cleaned_Formatted.RDS") # code is reading the RDS file
+str(FSI_Cleaned_FormattedRDS) # code is checking the data types of the RDS file
+```
+
+```{r save and read combined CSV, eval=TRUE, echo=TRUE, message=FALSE}
+write.csv(fsi_combined,"FSI_Cleaned_Formatted.csv", row.names = FALSE) # code is saving the data frame as a csv file
+FSI_Cleaned_FormattedCSV=read.csv("FSI_Cleaned_Formatted.csv") # code is reading the csv file
+str(FSI_Cleaned_FormattedCSV) # code is checking the data types of the csv file
+```
+
+## Save 2013 2023 data
+
+```{r save 10 year RDS, eval=TRUE, echo=TRUE, message=FALSE}
+saveRDS(fsi_2013_2023,"FSI_2013_2023_Cleaned_Formatted.RDS") # code is saving the file as an RDS file
+```
+
+```{r read 10 year RDS, eval=TRUE, echo=TRUE, message=FALSE}
+FSI_2013_2023_Cleaned_FormattedRDS=readRDS("FSI_2013_2023_Cleaned_Formatted.RDS") # code is reading the RDS file
+str(FSI_2013_2023_Cleaned_FormattedRDS) # code is checking the data types of the RDS file
+```
+
+```{r save and read 10 year CSV, eval=TRUE, echo=TRUE, message=FALSE}
+write.csv(fsi_2013_2023,"FSI_2013_2023_Cleaned_Formatted.csv", row.names = FALSE) # code is saving the data frame as a csv file
+FSI_2013_2023_Cleaned_FormattedCSV=read.csv("FSI_2013_2023_Cleaned_Formatted.csv") # code is reading the csv file
+str(FSI_2013_2023_Cleaned_FormattedCSV) # code is checking the data types of the csv file
+```
+
+## Save Long Data
+
+```{r save 2013 long RDS, eval=TRUE, echo=TRUE, message=FALSE}
+saveRDS(fsi_2013_long,"FSI_2013_Long_Cleaned_Formatted.RDS") # code is saving the file as an RDS file
+```
+
+```{r read 2013 long RDS, eval=TRUE, echo=TRUE, message=FALSE}
+FSI_2013_Long_Cleaned_FormattedRDS=readRDS("FSI_2013_Long_Cleaned_Formatted.RDS") # code is reading the RDS file
+str(FSI_2013_Long_Cleaned_FormattedRDS) # code is checking the data types of the RDS file
+```
+
+```{r save and read 2013 long CSV, eval=TRUE, echo=TRUE, message=FALSE}
+write.csv(fsi_2013_long,"FSI_2013_Long_Cleaned_Formatted.csv", row.names = FALSE) # code is saving the data frame as a csv file
+FSI_2013_Long_Cleaned_FormattedCSV=read.csv("FSI_2013_Long_Cleaned_Formatted.csv") # code is reading the csv file
+str(FSI_2013_Long_Cleaned_FormattedCSV) # code is checking the data types of the csv file
+```
+
+```{r save 2023 long RDS, eval=TRUE, echo=TRUE, message=FALSE}
+saveRDS(fsi_2023_long,"FSI_2023_Long_Cleaned_Formatted.RDS") # code is saving the file as an RDS file
+```
+
+```{r read 2023 long RDS, eval=TRUE, echo=TRUE, message=FALSE}
+FSI_2023_Long_Cleaned_FormattedRDS=readRDS("FSI_2023_Long_Cleaned_Formatted.RDS") # code is reading the RDS file
+str(FSI_2023_Long_Cleaned_FormattedRDS) # code is checking the data types of the RDS file
+```
+
+```{r save and read 2023 long CSV, eval=TRUE, echo=TRUE, message=FALSE}
+write.csv(fsi_2023_long,"FSI_2023_Long_Cleaned_Formatted.csv", row.names = FALSE) # code is saving the data frame as a csv file
+FSI_2023_Long_Cleaned_FormattedCSV=read.csv("FSI_2023_Long_Cleaned_Formatted.csv") # code is reading the csv file
+str(FSI_2023_Long_Cleaned_FormattedCSV) # code is checking the data types of the csv file
+```
+
