@@ -130,7 +130,7 @@ fsi_2020 <- fsi_2020[,-17] # remove 17th column
 ```{r append, eval=TRUE, echo=TRUE, message=FALSE}
 
 fsi_combined=rbind(fsi_2006,fsi_2007,fsi_2008,fsi_2009,fsi_2010,fsi_2011,fsi_2012,fsi_2013,fsi_2014,fsi_2015,fsi_2016,fsi_2017,fsi_2018,fsi_2019,fsi_2020,fsi_2021,fsi_2022_download,FSI_2023_DOWNLOAD) # combine all data sets
-fsi_combined
+fsi_combined # view data set
 ```
 
 ## Check values formats - year = integer, rank = integer
@@ -172,19 +172,26 @@ names(fsi_combined)[13]=c("P3_Human_Rights") # change column name
 names(fsi_combined)[14]=c("S1_Demographic_Pressures") # change column name
 names(fsi_combined)[15]=c("S2_Refugees_and_IDPs") # change column name
 names(fsi_combined)[16]=c("X1_External_Intervention") # change column name
+names(fsi_combined) # view column names
 ```
 
 # Plotting and Features
 
 ## Plot total per year using boxplots in ggplot2 with features
-** Come back to this, can't get features for the plot to work
+
 ```{r YT Boxplot, eval=TRUE, echo=TRUE, message=FALSE}
-library(ggplot2)
-base=boxplot(data=fsi_combined,Total~Year)
+library(ggplot2) # use package ggplot2
+base=boxplot(data=fsi_combined,Total~Year) # create a boxplot for total by year
 
 theTitle='Fragility States Index Over Time'
 theSubtitle='146 Countries, from 2006 to 2023'
-theCaption=paste("Source:Fragile States Index\n")
+theCaption=paste("Source:Fragile States Index\n") # create descriptions for the features
+
+box=base + labs(x="Year",
+                y="Total",
+                title = theTitle,
+                subtitle = theSubtitle,
+                caption = theCaption) # add the features to the plot.. I know this part isn't working but I can't figure out how to get it right. 
 ```
 
 ## Plot variables C1, C2, C3 using histograms
